@@ -61,7 +61,7 @@ h2 {
     display: flex;
     gap:1rem;
     justify-content: start;
-    height: 6rem!important;
+    height: 4rem!important;
 }
 
 .cabecalho_menu {
@@ -235,7 +235,7 @@ h2 {
         padding-top: 0.5rem;
         margin-top: 2rem;
     }
-}
+
 
 
 
@@ -345,7 +345,9 @@ h2 {
     h1{
         padding-top: 4rem;
     }
-
+    .cabecalho{
+        height: 6rem!important;
+    }
     .cabecalho_menu_links{
         gap:2rem !important;
         padding-right: 5rem;
@@ -415,3 +417,4 @@ h2 {
     
     }
 }
+
