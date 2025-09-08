@@ -40,14 +40,11 @@ h1 {
     font-family: var(--font-principal); 
 }
 
-h2 {
-    font-size: 3vw;
-    font-weight: 600;
-    color: var(--cor-secundaria);
-    text-align: left;
-    padding: 12% 3rem 2rem 20%;
-    font-family: var(--font-secundaria);
+
+#nome_2 {
+    margin-left: 6%;
     
+
 }
 
 .cabecalho {
@@ -72,8 +69,11 @@ h2 {
 
 .cabecalho_logo {
     max-width: 10vw;
-    height: auto;
+    height: 0.1rem;
+    max-height: 3rem;
     margin-right: 2rem;
+    margin-left: 1rem;
+    
 }
 
 .cabecalho_menu_links {
@@ -108,6 +108,10 @@ h2 {
     width: 100%;
 }
 
+
+
+
+
 .apresentacao {
     display: flex;
     flex-direction: column;
@@ -125,6 +129,7 @@ h2 {
 
 .name {
     margin-top: 5rem;
+    margin-right: 40%;
 }
 
 .apresentacao__valores__texto {
@@ -320,7 +325,7 @@ h2 {
     h1{
         margin-top: 3rem;
         height: auto;
-        margin-right: 5%;
+        margin-right: 10%;
     }
 
     h2 {
@@ -417,4 +422,5 @@ h2 {
     
     }
 }
+
 
