@@ -128,8 +128,42 @@ h1 {
 }
 
 .name {
-    margin-top: 5rem;
-    margin-right: 40%;
+    display: grid;
+    grid-template-columns: 1fr 2fr; /* esquerda menor, direita maior */
+    gap: 10rem;
+    min-height: 70vh;
+    align-items: center;
+    padding: 2rem;
+
+}
+
+.sidebar {
+    gap:2rem;
+    margin-bottom: 11rem;
+
+}
+
+.sidebar h1 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #dbeafe; /* azul claro */
+  
+  
+}
+
+.sidebar h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--cor-secundaria);
+  margin-top: 2rem; /* azul médio */
+}
+  
+
+.content p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #cbd5e1; /* cinza claro */
+  max-width: 700px;
 }
 
 .apresentacao__valores__texto {
@@ -149,9 +183,7 @@ h1 {
     color: var(--cor-secundaria);
 }
 
-.firsttext {
-    margin-right: 30%;
-}
+
 
 .apresentacao__links {
     display: flex;
@@ -422,5 +454,8 @@ h1 {
     
     }
 }
+
+
+
 
 
