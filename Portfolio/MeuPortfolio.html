@@ -7,22 +7,25 @@
     <title>Portfólio</title>
     <link rel="stylesheet" href="./styles/MeuPortfolio.css">
 </head>
+<script src="./scripts/main.js" defer></script>
+
 <body>
     <header class="cabecalho">
-        <nav class="cabecalho_menu">
-            <img src="./assets/logo.png" alt="Logo" class="cabecalho_logo">
-            <a class="cabecalho_menu_links" href="MeuPortfolio.html">HOME</a>
-            <a class="cabecalho_menu_links">PROJECTS</a>
-            <a class="cabecalho_menu_links" href="#minhas-redes">CONTATO</a>
-           
-        </nav>
+        <img src="./assets/logo.png" alt="Logo" class="cabecalho_logo">
+            <nav class="cabecalho_menu">
+                <ul>
+                <li><a  href="#home"class="nav-link cabecalho_menu_links">HOME</a></li>
+                <li><a  href="#projects"  class="nav-link cabecalho_menu_links">PROJECTS</a></li>
+                </ul>
+            
+            </nav>
     </header>
     <main class="apresentacao">
-        <section class="apresentacao__valores">
+        <section id = "home">
             <div class="name">
 
                 <aside class="sidebar">
-                <h1 id="nome">ITALO FEITOSA PAIVA</h1>
+                <h1 id="nome">ITALO FEITOSA </h1>
                 <h2 id="nome_2">Desenvolvedor FullStack</h2>
                 </aside>
                 
@@ -71,10 +74,10 @@
                  
                     </ul>
                 </aside>    
-                  
-        <main class="projects">
+     <section id="projects">       
+        <main class="projects_1">
 
-       
+            
             <div class="project-card ">
               <a href="https://github.com/Italofpaiva/BasicofPython" class="project-card_2" target="_blank" rel="noopener noreferrer">
                 <div class="project-content">
@@ -110,15 +113,15 @@
               </a>             
             </div>
         </main>
+    </section>
 
 
              
         
-    <footer class="rodape"> Desenvolvido por Italo Feitosa Paiva
+    <footer class="rodape"> Desenvolvido com HTML, CSS e Javascript
     </footer>
 </body>
 </html>
-
 
 
 
