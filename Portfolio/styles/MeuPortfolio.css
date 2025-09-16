@@ -65,7 +65,7 @@ h1 {
 .cabecalho_menu ul {
     list-style: none;
     display: flex;
-    gap: 4rem;
+    gap: 3rem;
     align-items: center;
     margin: 0;
     padding: 0;
@@ -293,6 +293,7 @@ h1 {
         margin-left: 15%;
     }
 }
+
 
 
 
