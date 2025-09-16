@@ -7,7 +7,8 @@
 ##  Tecnologias Utilizadas
 - HTML5
 - CSS3
-- (Adicione frameworks, preprocessadores, bibliotecas, etc.)
+- Javascript
+
 
 ##  Como Executar
 Passos para rodar localmente:
