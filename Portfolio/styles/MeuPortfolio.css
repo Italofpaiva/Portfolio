@@ -24,6 +24,12 @@ body {
     color: var(--cor-secundaria);
     font-family: var(--font-principal);
     min-height: 100vh;
+
+    background-image: radial-gradient(
+        600px circle at var(--mouse-x, 0px) var(--mouse-y, 0px),
+        rgba(29, 78, 216, 0.15), /* Cor sutil do brilho. Você pode ajustar! */
+        transparent 80%
+    );
 }
 
 img {
@@ -293,6 +299,7 @@ h1 {
         margin-left: 15%;
     }
 }
+
 
 
 
