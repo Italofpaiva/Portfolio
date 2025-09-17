@@ -12,4 +12,10 @@ const observer = new IntersectionObserver((entries) => {
   });
 }, { threshold: 0.6 }); // ativa quando 60% da seção estiver visível
 
+
 sections.forEach(section => observer.observe(section));
+
+window.addEventListener('mousemove', e => {
+  document.documentElement.style.setProperty('--mouse-x', `${e.clientX}px`);
+  document.documentElement.style.setProperty('--mouse-y', `${e.clientY}px`);
+});
